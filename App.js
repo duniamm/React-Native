@@ -41,10 +41,10 @@ export default function App() {
       <Image source={logo} style={styles.logo}/>        
   
     <TouchableOpacity onPress={openImagePickerAsync} style={styles.button}>
-        <Text style={styles.buttonText}>Pick a photo</Text>
+        <Text style={styles.buttonText}>Agrega una foto</Text>
       </TouchableOpacity>
 </View>  
-  );
+); 
 }
 const styles = StyleSheet.create({
   container:{
